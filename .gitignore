@@ -1,6 +1,7 @@
-# 含真实解密密钥 / 二进制 / 敏感配置，一律不提交
+# 含真实解密密钥 / 二进制 / 敏感配置，一律不提交（shuake_xuexi.exe 是公开分发版，放行）
 shuake.py
 *.exe
+!shuake_xuexi.exe
 *.db
 api_config.json
 table*.json

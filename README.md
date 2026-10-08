@@ -6,7 +6,9 @@
 
 ## 使用
 
-需要 Python 3.9+ 和 Playwright（驱动本机 Chrome/Edge）：
+Windows 用户可直接双击 **`shuake_xuexi.exe`** 运行（已打包 Playwright，无需装 Python）。
+
+源码运行需要 Python 3.9+ 和 Playwright（驱动本机 Chrome/Edge）：
 
 ```bash
 pip install playwright
@@ -28,10 +30,11 @@ python shuake.1.py
 
 | 文件 | 说明 |
 |---|---|
-| `shuake.1.py` | 开源版入口（解密表密钥为空，运行时从外部加载） |
+| `shuake_xuexi.exe` | Windows 免安装版，双击即用 |
+| `shuake.1.py` | 开源版源码（解密表密钥为空，运行时从外部加载） |
 | `body.json` | API 请求体测试示例 |
 
-不提供打包好的 exe：本仓库只开源代码，请自行运行或联系作者。
+直接下载 `shuake_xuexi.exe` 即可使用；令牌找作者购买/续费。
 
 ## 许可证
 
