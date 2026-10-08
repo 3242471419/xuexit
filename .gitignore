@@ -1,0 +1,15 @@
+# 含真实解密密钥 / 二进制 / 敏感配置，一律不提交
+shuake.py
+*.exe
+*.db
+api_config.json
+table*.json
+enc_table.py
+gen_enc_table.py
+
+# 常规忽略
+__pycache__/
+build/
+dist/
+*.spec
+*.log
