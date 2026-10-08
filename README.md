@@ -1,8 +1,9 @@
-# shuake 学习通刷课助手（开源版）
+# shuake 学习tonshua课助手（开源版）
 
 个人学习辅助脚本：自动播放视频任务点、自动答题、自动翻页跳转下一节。
 
 > ⚠️ 免责声明：仅供个人学习研究使用。若因不合理操作出现不良记录或学习行为异常，概不负责。如作他用，所承受的法律责任一概与作者无关。使用即代表你同意上述观点。
+> 并且你需要遵守GPLv3协议，不许二开，如若想二开需经作者允许，并且得开源。获取密钥赞助地址https://afdian.com/a/z_15963?utm_source=copylink&utm_medium=link
 
 ## 使用
 
@@ -34,7 +35,7 @@ python shuake.1.py
 | `shuake.1.py` | 开源版源码（解密表密钥为空，运行时从外部加载） |
 | `body.json` | API 请求体测试示例 |
 
-直接下载 `shuake_xuexi.exe` 即可使用；令牌找作者购买/续费。
+直接下载 `shuake_xuexi.exe` 即可使用；令牌找作者进行赞助可得：https://afdian.com/a/z_15963?utm_source=copylink&utm_medium=link。
 
 ## 许可证
 
