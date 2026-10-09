@@ -1,4 +1,4 @@
-# shuake 学习tonshua课助手（开源版）
+# 学习通刷课助手（windows版）
 
 个人学习辅助脚本：自动播放视频任务点、自动答题、自动翻页跳转下一节。
 
@@ -16,9 +16,9 @@ pip install playwright
 playwright install
 python shuake.1.py
 ```
-
-首次运行会询问你的令牌（`sk-` 开头，找作者购买/续费），之后自动保存配置。
-答题请求默认发往作者服务器，只有服务器连不上时才需要手动输入新地址。
+如果想只使用除了自动刷题之外的功能，只需要在让你填入令牌的时候随意填写即可，后续获得令牌时可通过修改api_config.json文件中的api_key的值来使用
+首次运行会询问你的令牌（`sk-` 开头，找作者），也可随意填写，之后自动保存配置。
+如果连接不上服务器请找作者要新的地址。（如若不需要自动刷题可跳过这条内容）
 
 ## 功能
 
@@ -32,7 +32,7 @@ python shuake.1.py
 | 文件 | 说明 |
 |---|---|
 | `shuake_xuexi.exe` | Windows 免安装版，双击即用 |
-| `shuake.1.py` | 开源版源码（解密表密钥为空，运行时从外部加载） |
+| `shuake.1.py` |
 | `body.json` | API 请求体测试示例 |
 
 直接下载 `shuake_xuexi.exe` 即可使用；令牌找作者进行赞助可得：https://afdian.com/a/z_15963?utm_source=copylink&utm_medium=link。
